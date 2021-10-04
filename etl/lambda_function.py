@@ -52,7 +52,7 @@ def handler(event, context):
                     {'Name': 'JupyterEnterpriseGateway'},
                     {'Name': 'Livy'},
                 ],
-
+                # Configurando as variaveis de ambiente que o spark vai utilizar
                 Configurations=[{
                     "Classification": "spark-env",
                     "Properties": {},
